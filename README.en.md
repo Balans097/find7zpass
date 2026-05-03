@@ -23,6 +23,9 @@ A command-line utility for recovering a forgotten 7-Zip archive password by inte
 
 ## How It Works
 
+![How it works](./screenshots/HowItWorks.png)
+
+
 The program does not try every possible character combination (brute-force). Instead, it builds password candidates from meaningful fragments — **patterns** (words, dates, names) and **special characters** (punctuation, keyboard symbols) — using the following scheme:
 
 ```
